@@ -36,9 +36,15 @@
 img{
     height: 100px;
     width: auto;
+    float: left;
 }
 article.box{
     float: left;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 h1.name{
     display: inline-block;
@@ -48,12 +54,15 @@ h1.name{
     color: white;
 }
 p.job{
-    color: rgb(0, 0, 0);
-    padding-top: 0.4rem;
+    vertical-align: auto;
+    color: white;
+    font-size: smaller;
+    padding-top: 0.5rem;
 
 
 }
 p.email{
     color: rgb(16, 101, 230);
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    font-size: 1.1rem;
 }
