@@ -1,21 +1,59 @@
 *{
     font-family: 'Fredoka', sans-serif;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 1203px;
+    height: 708px;
+    margin: 3rem auto;
 }
 .title{
-    color: deeppink;
-    font-size: 36px;
+    color: rgb(15, 13, 134);
+    font-size: 64px;
     text-align: center;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    padding-top: .2rem;
+    padding-bottom: 2rem;
 }
-.text{
-    display: inline-block;
+.paragraph{
     text-align: center;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    font-size: 25px;
+}
+.box{
+    height: 100px;  
+    width: 300px;
+    margin: 5rem 0 0 5rem;
+    background-color: black;
+    box-shadow: 12px 12px 2px 1px rgb(255, 0, 0);
+    color: black;
+}
+img{
+    height: 100px;
+    width: auto;
+}
+article.box{
+    float: left;
+}
+h1.name{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0.5rem;
+    font: 'Fredoka One', sans-serif;
+    color: white;
+}
+p.job{
+    color: rgb(0, 0, 0);
+    padding-top: 0.4rem;
+
+
+}
+p.email{
+    color: rgb(16, 101, 230);
+    padding-top: 1rem;
 }
