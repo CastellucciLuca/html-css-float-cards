@@ -42,11 +42,6 @@ img{
 article.box{
     float: left;
 }
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 h1.name{
     display: inline-block;
     vertical-align: top;
