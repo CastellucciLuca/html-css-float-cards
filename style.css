@@ -9,6 +9,7 @@
     display: table;
     clear: both;
 }
+
 .container{
     width: 1203px;
     height: 708px;
@@ -52,17 +53,21 @@ h1.name{
     padding-top: 0.5rem;
     font: 'Fredoka One', sans-serif;
     color: white;
+    margin-left: 0.3rem;
+    text-align: center;
 }
 p.job{
+    display: inline-block;
     vertical-align: auto;
     color: white;
     font-size: smaller;
     padding-top: 0.5rem;
-
-
+    margin-left: 0.3rem;
 }
-p.email{
+a.email{
     color: rgb(16, 101, 230);
     padding-top: 0.5rem;
     font-size: 1.1rem;
+    margin-left: 0.3rem;
+    text-align: center;
 }
